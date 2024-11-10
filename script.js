@@ -52,3 +52,17 @@ console.log(sum(range2(1, 10))); // returns 55
 // reverseArrayInPlace(arrayValue);
 // console.log(arrayValue); // outputs [5, 4, 3, 2, 1]
 
+// reverseArray
+
+function reverseArray(array1) {
+    let array2 = [];
+    for (let i = array1.length - 1; i >= 0; i--) {
+        array2.push(array1[i]);
+    }
+    return array2;
+}
+
+console.log(reverseArray(["A", "B", "C"])); // outputs ["C", "B", "A"]
+
+
+
